@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="topic3.css">
+</head>
+<body>
+    <header>
+       <img src = "images/logo.png" alt = Logo>
+    
+    
+        <nav id="navbar">
+          <a href="index.html">Home</a>
+          <a href="Quiz.html">Quiz</a>
+          <div class="dropdown">
+            <a href="#">Sections</a>
+            <div class="dropdown-content">
+                <a href="Topic1.html">C Overview</a>
+                 <a href="Topic2.html">Data Types and Variables</a>
+                 <a href="Topic3.html">Operators and Constants</a>
+                 <a href="Topic4.html">Conditional Statements</a>
+                 <a href="Topic5.html">Loops</a>
+                 <a href = "Topic6.html">Intro to Arrays</a>
+            </div>
+          </div>
+
+          </nav>
+      </header>
+    
+     
+      <section class="start">
+        <h2>CONSTANTS & OPERATORS</h2>
+        
+        <p> Master the concepts of operators and constants in C programming with <b>PhyCics</b>. This page covers the fundamentals of various operators—such as arithmetic, logical, and bitwise operators—providing detailed explanations and examples to help you understand how to perform operations on variables and values effectively. Additionally, it delves into the use of constants, illustrating how to define and utilize fixed values that remain unchanged throughout your program. By grasping these concepts, you'll be equipped to write more efficient and maintainable C programs.</p>
+          
+             <img src = "images/phyCics (1000 x 1000 px) (3).gif" alt = "Start Picture">
+      </section>
+    <div >
+      
+          
+          <hr style="border-color: white;">
+    
+          <div id="Goals">
+            <h1>CONSTANTS</h1>
+          
+            <article>
+                
+                <h3>What are <b>Constants</b> in C Language?</h3>
+                <ul>
+                    <li>In C, constants are fixed values that cannot be altered during the execution of the program.</li>
+                    <br> 
+                    <li>They are useful when you need to use a value multiple times in your program but don't want it to change.</li>
+                    <br>
+                    <li>Constants can be defined using the <b>#define</b> directive or with the <b>const</b> keyword.</li>
+                    <br>
+                    <li>There are several types of constants in C: <b>integer constants</b>, <b>floating-point constants</b>, <b>character constants</b>, and <b>string constants</b>.</li>
+                    <br>
+                    <li>Example of defining a constant: <b>#define PI 3.14</b> sets <b>PI</b> as a constant with the value 3.14.</li>
+                </ul>
+                
+
+            <ol>
+            <article>
+        
+                
+                    <li><h3><strong>CONSTANTS</strong></h3></li>
+                    <p>In C, a <b>constant</b> is a fixed value that does not change during the execution of a program. Constants are used to represent values that remain the same throughout the code, providing clarity and reducing the chance of errors.</p>
+                    <img src="images/const_1.png" alt="input" width="800" height="500">
+
+                
+                    <br>
+                     <h4>Output:</h4>
+                     <details>
+                        <summary>Click</summary>
+                        <br>
+                        <img src = "images/CONST_1_OUTPUT.png" alt = "input">
+                    </details>
+
+
+                    <h5>Sample Code Explained</h5>
+                    <p>In the example below, constants are defined using the <b>const</b> keyword. These constants have fixed values that cannot be changed during program execution:</p>
+                    <ul>
+                        <li><b>int_const</b>: An integer constant with a value of <b>25</b>.</li>
+                        <li><b>char_const</b>: A character constant with a value of <b>'A'</b>.</li>
+                        <li><b>float_const</b>: A floating-point constant with a value of <b>15.66</b>.</li>
+                    </ul>
+                    <p>The <b>printf</b> statements demonstrate how these constants are used to print their values.</p>
+
+                 </article>
+
+                 <article>
+        
+                
+                    <h3><strong>Types of Constants in C</strong></h3>
+                    <p>The type of a constant is the same as the data type of a variable. Following is the list of the types of constants:</p>
+                    <ul>
+                        <li><b>Integer Constant:</b> Represents whole numbers, such as <b>10, -5</b>.</li>
+                        <li><b>Character Constant:</b> Represents a single character, enclosed in single quotes, such as <b>'A', 'z'</b>.</li>
+                        <li><b>Floating-Point Constant:</b> Represents numbers with a fractional part, such as <b>3.14, -0.567</b>.</li>
+                        <li><b>Double-Precision Floating-Point Constant:</b> Represents numbers with a higher precision compared to floating-point constants.</li>
+                        <li><b>Array Constant:</b> Represents a fixed sequence of values of the same type, such as <b>{1, 2, 3}</b> for integers.</li>
+                        <li><b>Structure Constant:</b> Represents a group of related values under one name, defined using the <b>struct</b> keyword.</li>
+                    </ul>
+
+                 </article>
+
+                 <article>
+        
+                
+                   <h3><strong>Properties of Constants in C</strong></h3>
+<p>The important properties of constant variables in C defined using the <b>const</b> keyword are as follows:</p>
+<ul>
+    <li><b>Initialization with Declaration:</b> 
+        <p>We can only initialize the constant variable in C at the time of its declaration. Otherwise, it will store the garbage value.</p>
+    </li>
+    <li><b>Immutability:</b> 
+        <p>The constant variables in C are immutable after their definition, i.e., they can be initialized only once in the whole program. After that, we cannot modify the value stored inside that variable.</p>
+    </li>
+</ul>
+
+<h5>Immutability</h5>
+<img src="images/IMMUT.png" alt="input" width="800" height="500">
+
+<br>
+<h4>Output:</h4>
+<details>
+    <summary>Click</summary>
+    <br>
+    <img src="images/im-res-final.png" alt="Output of Constants Properties">
+</details>
+
+<h5>Sample Code Explained:</h5>
+<ul>
+    <ul>
+        <li><b>Initialization:</b> A constant variable must be initialized during its declaration. For example, <code>const int var = 20;</code>. If not initialized, it will result in an error if you try to assign a value later.</li>
+        <li><b>Immutability:</b> Once a variable is declared with the <b>const</b> keyword, its value cannot be changed. Any attempt to modify it, such as <code>var = 25;</code>, will result in a compilation error.</li>
+    </ul>
+    
+</ul>
+
+                 </article>
+
+                 <article>
+        
+                
+                    <table border="1" cellpadding="10">
+                        <thead>
+                            <tr>
+                                <th>Constant</th>
+                                <th>Literals</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Constants are variables that cannot be modified once declared.</td>
+                                <td>Literals are the fixed values that define themselves.</td>
+                            </tr>
+                            <tr>
+                                <td>Constants are defined by using the <code>const</code> keyword in C. They store literal values in themselves.</td>
+                                <td>They themselves are the values that are assigned to the variables or constants.</td>
+                            </tr>
+                            <tr>
+                                <td>We can determine the address of constants.</td>
+                                <td>We cannot determine the address of a literal except string literal.</td>
+                            </tr>
+                            <tr>
+                                <td>They are lvalues.</td>
+                                <td>They are rvalues.</td>
+                            </tr>
+                            <tr>
+                                <td>Example: <code>const int c = 20;</code></td>
+                                <td>Example: <code>24, 15.5, 'a', "Geeks"</code>, etc.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+
+                    <h1>C OPERATORS</h1>
+                    <ol>
+                    <article>
+                    
+                        <li><h3><strong>ARITHMETIC OPERATORS</strong></h3></li>
+                        <p><b>Arithmetic operators</b> are used to perform basic mathematical operations such as addition, subtraction, multiplication, division, and modulus.</p>
+                        <h5>Sample Code:</h5>
+                        <img src="images/op-1.png" alt="input" width="800" height="500">
+                    
+                        <br>
+                        <h4>Output:</h4>
+                        <details>
+                            <summary>Click</summary>
+                            <br>
+                            <img src="images/ar-2.png" alt="output" width="500" height="300">
+                        </details>
+                    
+                    </article>
+                    
+                    <article>
+                    
+                        <li><h3><strong>RELATIONAL OPERATORS</strong></h3></li>
+                        <p><b>Relational operators</b> are used to compare two values. They return either <b>true (1)</b> or <b>false (0)</b> depending on the condition.</p>
+                        <h5>Sample Code:</h5>
+                        <img src="images/rel-1.png" alt="input"  width="800" height="500">
+                    
+                        <br>
+                        <h4>Output:</h4>
+                        <details>
+                            <summary>Click</summary>
+                            <br>
+                            <img src="images/rel-2.png" alt="output" width="500" height="300">
+                        </details>
+                    
+                    </article>
+                    
+                    <article>
+                    
+                        <li><h3><strong>LOGICAL OPERATORS</strong></h3></li>
+                        <p><b>Logical operators</b> are used to combine multiple conditions or expressions. They include <code>&& (AND)</code>, <code>|| (OR)</code>, and <code>! (NOT)</code>.</p>
+                        <h5>Sample Code:</h5>
+                        <img src="images/OP-4.png" alt="input" width="800" height="450">
+                    
+                        <table border="1" cellpadding="10" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>S. No.</th>
+                                    <th>Symbol</th>
+                                    <th>Operator</th>
+                                    <th>Description</th>
+                                    <th>Syntax</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>&&</td>
+                                    <td>Logical AND</td>
+                                    <td>Returns true if both the operands are true.</td>
+                                    <td>a && b</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>||</td>
+                                    <td>Logical OR</td>
+                                    <td>Returns true if both or any of the operands are true.</td>
+                                    <td>a || b</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>!</td>
+                                    <td>Logical NOT</td>
+                                    <td>Returns true if the operand is false.</td>
+                                    <td>!a</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+
+                        <br>
+                        <h4>Output:</h4>
+                        <details>
+                            <summary>Click</summary>
+                            <br>
+                            <img src="images/rel-5.png" alt="output" width="500" height="300"
+
+                            
+                        </details>
+                    
+                    </article>
+        
+                    <article>
+                    
+                        <li><h3><strong>ASSIGNMENT OPERATORS</strong></h3></li>
+                        <p><b>Assignment operators</b> are used to assign values to variables. Common operators include <code>=</code>, <code>+=</code>, <code>-=</code>, <code>*=</code>, <code>/=</code>, and <code>%=</code>.</p>
+                        <h5>Sample Code:</h5>
+                        <img src="images/rel5 2.png" alt="input" width="800" height="500"
+                    
+                        <br>
+                        <h4>Output:</h4>
+                        <details>
+                            <summary>Click</summary>
+                            <br>
+                            <img src="images/rel6 2.png" alt="output" width="500" height="300"
+                        </details>
+                    
+                    </article>
+                    </ol>
+                    
+                 </article>
+                </ol>
+                  
+        </div>
+</body>
+</html>

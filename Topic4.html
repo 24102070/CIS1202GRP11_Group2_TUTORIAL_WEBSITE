@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Topic1.css">
+</head>
+<body>
+    <header>
+       <img src = "images/logo.png" alt = Logo>
+    
+    
+        <nav id="navbar">
+          <a href="index.html">Home</a>
+          <a href="Quiz.html">Quiz</a>
+          <div class="dropdown">
+            <a href="#">Sections</a>
+            <div class="dropdown-content">
+                <a href="Topic1.html">C Overview</a>
+                 <a href="Topic2.html">Data Types and Variables</a>
+                 <a href="Topic3.html">Operators and Constants</a>
+                 <a href="Topic4.html">Conditional Statements</a>
+                 <a href="Topic5.html">Loops</a>
+                 <a href = "Topic6.html">Intro to Arrays</a>
+            </div>
+          </div>
+
+          </nav>
+      </header>
+    
+     
+      <section class="start">
+        <h2>CONDITIONAL STATEMENTS</h2>
+        
+        <p> Discover the power of conditional statements and switch cases in
+             C programming with <b>PhyCics</b>. 
+             This page explains how to implement decision-making logic using 
+             <b>if, else, else if, and switch statements</b>to 
+             create dynamic and responsive programs.</p>
+          
+             <img src = "images/phyCics (1000 x 1000 px) (4).gif" alt = "Start Picture">
+      </section>
+    <div >
+      
+          
+          <hr style="border-color: white;">
+    
+          <div id="Goals">
+            <h1>C BRANCHING</h1>
+          
+            <article>
+                
+                <h3>C has the following conditional statements:</h3>
+                    <ul>
+                         <li>Use <b>if</b> to specify a block of code to be executed, if a specified condition is <b>true</b></li>
+                        <br> 
+                        <br> 
+                        <li>Use <b>else</b> to specify a block of code to be executed, if the same condition is <b>false</b></li>
+                        <br> 
+                        <br> 
+                       <li>Use <b>else if</b> to specify a new condition to test, if the first condition is <b>false</b></li>
+                       <br> 
+                        <br> 
+                       <li>Use <b>switch</b> to specify many alternative blocks of code to be executed</li>
+                    </ul>
+            </article>
+
+            <ol>
+            <article>
+        
+                
+                    <li><h3><strong>IF STATEMENT</strong></h3></li>
+                    <h5>Sample Code:</h5>
+                    <img src = "images/IFCON.png" alt = "input">
+
+                
+                    <br>
+                     <h4>Output:</h4>
+                     <details>
+                        <summary>Click</summary>
+                        <br>
+                        <img src = "images/IFCONOUTPUT.png" alt = "input">
+                    </details>
+
+
+                    <h5>Sample Code Explained</h5>
+                    <p>In the example above we use two variables, <b>x and y</b>, to test whether x is greater than y using the <b>></b> operator. 
+                        As x is 20, and y is 18, and we know that 20 is greater than 18,
+                         we print to the screen that <b>"x is greater than y"</b>.</p>
+
+                 </article>
+
+                 <article>
+        
+                
+                    <li><h3><strong>ELSE STATEMENT</strong></h3></li>
+                    <h5>Sample Code:</h5>
+                    <img src = "images/ELSE.png" alt = "input">
+
+                
+                    <br>
+                     <h4>Output:</h4>
+                     <details>
+                        <summary>Click</summary>
+                        <br>
+                        <img src = "images/ELSEOUTPUT.png" alt = "input">
+                    </details>
+
+
+                    <h5>Sample Code Explained</h5>
+                    <p>In the example above, age (20) is greater than 18, so the condition is false. Because of this, we move on to the else 
+                        condition and print to the screen <b>"You are Major Alpha"</b>. If the age was less than 18,
+                         the program would print <b>"You are Minor Omega"</b>.</p>
+
+                 </article>
+
+                 <article>
+        
+                
+                    <li><h3><strong>ELSE-IF STATEMENT</strong></h3></li>
+                    <h5>Sample Code:</h5>
+                    <img src = "images/elseif.png" alt = "input">
+
+                
+                    <br>
+                     <h4>Output:</h4>
+                     <details>
+                        <summary>Click</summary>
+                        <br>
+                        <img src = "images/elseifout.png" alt = "input">
+                    </details>
+
+
+                    <h5>Sample Code Explained</h5>
+                    <p>In the example above, age (69) is greater than 10, so the <b>first condition is false</b>. 
+                        The next condition, in the else if statement, is also <b>false</b>,
+                         so we move on to the else condition since <b>condition1 and condition2</b>is both <b>false</b> - 
+                         and print to the screen <b>"Bombastic Boomah"</b>.
+                        However, if the age was 18, our program would print <b>"Gen Z Gronk"</b></p>
+
+                 </article>
+
+                 <article>
+        
+                
+                    <li><h3><strong>SWITCH CASE</strong></h3></li>
+                    <p>Instead of writing many <b>if-else</b>statements, you can use the <b>switch</b> statement. The <b>switch statement</b> selects one of many code blocks to be executed:</p>
+                    <h5>Sample Code:</h5>
+                    <img src = "images/switch.png" alt = "input">
+
+                
+                    <br>
+                     <h4>Output:</h4>
+                     <details>
+                        <summary>Click</summary>
+                        <br>
+                        <img src = "images/switchout.png" alt = "input">
+                    </details>
+
+
+                    <h5>Sample Code Explained</h5>
+                <ul>
+                    <li>The <b>switch</b> expression is evaluated once</li>
+                    <li>The value of the expression is compared with the values of each <b>case</b></li>
+                    <li>If there is a <b>match</b>, the associated block of code is executed</li>
+                    <li>The <b>break</b> statement breaks out of the switch block and stops the execution</li>
+                    <li>The <b>default</b> statement is optional, and specifies some code to run if there is no case match</li>
+                </ul>
+
+                 </article>
+                 
+                  </ol>
+        </div>
+</body>
+</html>

@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Overview</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Topic1.css">
+</head>
+<body>
+    <header>
+       <img src = "images/logo.png" alt = Logo>
+    
+    
+        <nav id="navbar">
+          <a href="index.html">Home</a>
+          <a href="Quiz.html">Quiz</a>
+          <div class="dropdown">
+            <a href="#">Sections</a>
+            <div class="dropdown-content">
+                <a href="Topic1.html">C Overview</a>
+                 <a href="Topic2.html">Data Types and Variables</a>
+                 <a href="Topic3.html">Operators and Constants</a>
+                 <a href="Topic4.html">Conditional Statements</a>
+                 <a href="Topic5.html">Loops</a>
+                 <a href = "Topic6.html">Intro to Arrays</a>
+            </div>
+          </div>
+
+          </nav>
+      </header>
+    
+     
+      <section class="start">
+        <h2>C OVERVIEW</h2>
+        
+        <p> Learn the foundational concepts of C programming at <b>PhyCics</b>.
+             This page covers essential topics including background, 
+             syntax, input/output operations, data types, and variables. </p>
+          
+             <img src = "images/phyCics (1000 x 1000 px) (5).gif" alt = "Start Picture">
+      </section>
+    <div >
+      
+          
+          <hr style="border-color: white;">
+    
+          <div id="Goals">
+            <h1>WHAT IS C?</h1>
+            <ol>
+            <article>
+                
+                    <li><strong>C</strong></li>
+                    <p>
+                        It is a general-purpose programming language created by <b>Dennis Ritchie</b> at the <b>Bell Laboratories in 1972</b>.
+                        <br> 
+                        <br> 
+                        It is a very popular language, despite being old. The main reason for its popularity is because it is a 
+                        fundamental language in the field of computer science.
+                        <br> 
+                        <br> 
+                        <b>C</b> is strongly associated with <b>UNIX</bb>, as it was developed to
+                        write the UNIX operating system.
+                        <br> 
+                        <br> 
+                    </p>
+        
+                    <h5>Why Learn C?</h5>
+                    <details>
+                        <summary>Click</summary>
+                        <ul>
+                            <li>It is one of the most popular programming languages in the world</li>
+                            <li>C is very fast, compared to other programming languages, like Java and Python</li>
+                            <li>C is very versatile; it can be used in both applications and technologies</li>
+                            <li>If you know C, you will have no problem learning other popular programming languages such as Java, Python, C++, C#, etc, as the syntax is similar</li>
+                        </ul>
+                    </details>
+              
+                    <hr style="border-color: white;">
+            </article>
+
+            <article>
+        
+                
+                    <li><strong>C SYNTAX</strong></li>
+                    <h5>Sample Code:</h5>
+                    <img src = "images/printfinput.PNG" alt = "input">
+                    <h5>Output:</h5>
+                    <img src = "images/printfoutput.PNG" alt = "output">
+        
+                    <h5>Sample Code Explained</h5>
+                    <details>
+                        <summary>Click</summary>
+                        <ul>
+                            <li><b>Line 1:</b> #include <stdio.h> is a <b>header file library</b> that lets us work with input and output functions, such as printf() (used in line 4). Header files add functionality to C programs.</li>
+                            <li><b>Line 3:</b> Another thing that always appear in a C program is main(). This is called a function. Any code inside its curly brackets {} will be executed.</li>
+                            <li><b>Line 4:</b> printf() is a function used to output/print text to the screen. In our example, it will output "I love you skibidi".</li>
+                            <li><b>Note that:</b> Every C statement ends with a semicolon <b>;</b></li>
+                        </ul>
+                    </details>
+
+                 </article>
+                    <hr style="border-color: white;">
+                
+        
+                <article>
+                    <li><strong>C OUTPUT</strong></li>
+                    <ul>
+                    <li><h4>Output (Print Text)</h4></li>
+                    <p>
+                        To output values or print text in C, you can use the printf() function:
+                    </p>
+
+                    <img src = "images/printfinput.PNG" alt = "input">
+
+                   <li> <h4>Double Quotes</h4></li>
+                    <p>
+                        When you are working with text, it must be wrapped inside double quotations marks "".
+                        <br>
+                        <br>
+                        If you forget the double quotes, an error occurs:
+                    </p>
+
+                    <img src = "images/dobquo.PNG" alt = "input">
+
+                    <li><h4>New Line</h4></li>
+                    <p>
+                        To insert a new line, you can use the <strong>\n</strong> character:
+                    </p>
+
+                    <h5>Sample Code:</h5>
+                    <img src = "images/newline1.PNG" alt = "input">
+                    <h5>Output:</h5>
+                    <img src = "images/newline2.PNG" alt = "input">
+
+                    
+                    <p>
+                        The newline character <b>(\n)</b> is called an escape sequence, 
+                        and it forces the cursor to change its position to the beginning of 
+                        the next line on the screen. 
+                        <br>
+                        <br>
+                        This results in a new line.
+                    </p>
+                    </ul>
+
+                    <table class="projects-table">
+                        <thead>
+                            <tr>
+                                <th>Escape Sequence</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="card">
+                                    
+                                    <h3>\t</h3>
+                                </td>
+                                <td>
+                                    <p>Creates a horizontal tab</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <tr>
+                                    <td class="card">
+                                        
+                                        <h3>\\</h3>
+                                    </td>
+                                    <td>
+                                        <p>Inserts a backslash character (\)</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <tr>
+                                        <td class="card">
+                                            
+                                            <h3>\"</h3>
+                                        </td>
+                                        <td>
+                                            <p>	Inserts a double quote character</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                               
+                        </tbody>
+                    </table>
+               
+        </article>
+        </ol>
+        </div>
+</body>
+</html>

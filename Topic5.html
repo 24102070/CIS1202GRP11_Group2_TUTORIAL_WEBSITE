@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Topic1.css">
+</head>
+<body>
+    <header>
+       <img src = "images/logo.png" alt = Logo>
+    
+    
+        <nav id="navbar">
+          <a href="index.html">Home</a>
+          <a href="Quiz.html">Quiz</a>
+          <div class="dropdown">
+            <a href="#">Sections</a>
+            <div class="dropdown-content">
+                <a href="Topic1.html">C Overview</a>
+                 <a href="Topic2.html">Data Types and Variables</a>
+                 <a href="Topic3.html">Operators and Constants</a>
+                 <a href="Topic4.html">Conditional Statements</a>
+                 <a href="Topic5.html">Loops</a>
+                 <a href = "Topic6.html">Intro to Arrays</a>
+            </div>
+          </div>
+
+          </nav>
+      </header>
+    
+     
+      <section class="start">
+        <h2>LOOPS</h2>
+        
+        <p> Master the concept of loops in C programming with <b>PhyCics</b>. 
+            This page covers the fundamentals of <b>for</b>, <b>while</b>, and <b>do-while</b> loops, 
+            along with techniques like <b>break and continue</b> statements to efficiently
+             handle repetitive tasks in your programs.</p>
+          
+             <img src = "images/phyCics (1000 x 1000 px) (1).gif" alt = "Start Picture">
+      </section>
+    <div >
+      
+          
+          <hr style="border-color: white;">
+    
+          <div id="Goals">
+            <h1>C LOOPS</h1>
+          
+            <article>
+                
+                <h3>What are Loops in Programming?</h3>
+                    <ul>
+                         <li>Loops can execute a block of code as long as a specified condition is reached.</li>
+                        <br> 
+                        <li>Loops are handy because they save time, reduce errors, and they make code more readable.</li>
+                    </ul>
+            </article>
+
+            <ol>
+            <article>
+        
+                
+                    <li><h3><strong>WHILE LOOP</strong></h3></li>
+                    <p>The <b>while</b> loop loops through a block of code as long as a specified condition is <b>true</b></p>
+                    <h5>Sample Code:</h5>
+                    <img src = "images/whileloop.png" alt = "input">
+
+                
+                    <br>
+                     <h4>Output:</h4>
+                     <details>
+                        <summary>Click</summary>
+                        <br>
+                        <img src = "images/whileloopout.png" alt = "input">
+                    </details>
+
+
+                    <h5>Sample Code Explained</h5>
+                    <p>In the example below, the code in the loop will run, over and over again, as long as a variable <b>(i)</b> is less than 5:</p>
+
+                 </article>
+
+                 <article>
+        
+                
+                    <li><h3><strong>DO-WHILE LOOP</strong></h3></li>
+                    <p>The <b>do/while</b> loop is a variant of the <b>while loop</b>. 
+                        This loop will execute the code block once, before checking 
+                        if the condition is true, then it will repeat the loop as long 
+                        as the condition is true.</p>
+                    <h5>Sample Code:</h5>
+                    <img src = "images/dowhile.png" alt = "input">
+
+                
+                    <br>
+                     <h4>Output:</h4>
+                     <details>
+                        <summary>Click</summary>
+                        <br>
+                        <img src = "images/whileloopout.png" alt = "input">
+                    </details>
+
+
+                    <h5>Sample Code Explained</h5>
+                    <p>The example below uses a <b>do/while loop</b>. 
+                        The loop will always be <b>executed at least once</b>, 
+                        even if the condition is false, because the code block 
+                        is executed before the condition is tested</p>
+
+                 </article>
+
+                 <article>
+        
+                
+                    <li><h3><strong>FOR LOOP</strong></h3></li>
+                    <p>When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop</p>
+                    <h5>Sample Code:</h5>
+                    <img src = "images/forloop.png" alt = "input">
+
+                
+                    <br>
+                     <h4>Output:</h4>
+                     <details>
+                        <summary>Click</summary>
+                        <br>
+                        <img src = "images/forloop.png" alt = "input">
+                    </details>
+
+
+                    <h5>Sample Code Explained</h5>
+                    <ul>
+                        <li><b>Expression 1</b> sets a variable before the loop starts (int i = 0).</li>
+                        <li><b>Expression 2</b> defines the condition for the loop to run (i must be less than 5). If the condition is true, the loop will start over again, if it is false, the loop will end.</li>
+                        <li><b>Expression 3</b> increases a value (i++)each time the code block in the loop has been executed.</li>
+                    </ul>
+
+                 </article>
+
+                 <article>
+        
+                
+                    <li><h3><strong>NESTED LOOPS</strong></h3></li>
+                    <p>The <b>"inner loop"</b> will be executed one time for each iteration of the <b>"outer loop"</b></p>
+                    <h5>Sample Code:</h5>
+                    <img src = "images/nestedloops.png" alt = "input">
+
+                
+                    <br>
+                     <h4>Output:</h4>
+                     <details>
+                        <summary>Click</summary>
+                        <br>
+                        <img src = "images/nestedloopsout.png" alt = "input">
+                    </details>
+
+                 </article>
+                </ol>
+
+                 <h1>C BREAK AND CONTINUE</h1>
+                 <ol>
+                 <article>
+        
+                    <li><h3><strong>BREAK</strong></h3></li>
+                    <p>The <b>break</b> statement can also be used to jump out of a loop.
+                        <br>
+                    This example jumps out of the for loop when i is equal to 4:</p>
+                    <h5>Sample Code:</h5>
+                    <img src = "images/break.png" alt = "input">
+
+                
+                    <br>
+                     <h4>Output:</h4>
+                     <details>
+                        <summary>Click</summary>
+                        <br>
+                        <img src = "images/breakout.png" alt = "input">
+                    </details>
+
+                 </article>
+                
+                 <article>
+        
+                    <li><h3><strong>CONTINUE</strong></h3></li>
+                    <p>The <b>continue</b> statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+                        <br>
+                    This example jumps out of the for loop when i is equal to 4:</p>
+                    <h5>Sample Code:</h5>
+                    <img src = "images/continue.png" alt = "input">
+
+                
+                    <br>
+                     <h4>Output:</h4>
+                     <details>
+                        <summary>Click</summary>
+                        <br>
+                        <img src = "images/continueout.png" alt = "input">
+                    </details>
+
+                 </article>
+                </ol>
+                  
+        </div>
+</body>
+</html>

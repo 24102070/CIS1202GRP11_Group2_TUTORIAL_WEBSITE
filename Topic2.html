@@ -1,0 +1,268 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Types and Variables</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Topic1.css">
+</head>
+<body>
+    <header>
+       <img src = "images/logo.png" alt = Logo>
+    
+    
+        <nav id="navbar">
+          <a href="index.html">Home</a>
+          <a href="Quiz.html">Quiz</a>
+          <div class="dropdown">
+            <a href="#">Sections</a>
+            <div class="dropdown-content">
+                <a href="Topic1.html">C Overview</a>
+                 <a href="Topic2.html">Data Types and Variables</a>
+                 <a href="Topic3.html">Operators and Constants</a>
+                 <a href="Topic4.html">Conditional Statements</a>
+                 <a href="Topic5.html">Loops</a>
+                 <a href = "Topic6.html">Intro to Arrays</a>
+            </div>
+          </div>
+
+          </nav>
+      </header>
+    
+     
+      <section class="start">
+        <h2>DATA TYPES AND VARIABLES</h2>
+        
+        <p> Explore the fundamentals of data types and variables in C programming 
+            with <b>PhyCics</b>. This page delves into defining, declaring, and initializing 
+            variables, understanding various data types, and effectively using them to
+            <b>write robust programs</b>.</p>
+          
+             <img src = "images/phyCics (1000 x 1000 px) (2).gif" alt = "Start Picture">
+      </section>
+    <div >
+      
+          
+          <hr style="border-color: white;">
+    
+          <div id="Goals">
+            <h1>C VARIABLES</h1>
+          
+            <article>
+                
+                <h3>In C, there are different types of variables (defined with different keywords):</h3>
+                    <ul>
+                         <li><b>int</b> - stores integers (whole numbers), without decimals, such as <b>123 or -123</b></li>
+                        <br> 
+                        <br> 
+                        <li><b>float</b> - stores floating point numbers, with decimals, such as <b>19.99 or -19.99</b></li>
+                        <br> 
+                        <br> 
+                       <li><b> char</b> - stores single characters, such as 'a' or 'B'. Characters are surrounded by <b>single quotes</b></li>
+                    </ul>
+            </article>
+
+            <article>
+        
+                
+                    <h3><strong>DECLARING VARIABLES</strong></h3>
+                    <h5>Sample Code:</h5>
+                    <img src = "images/exampleinput.png" alt = "input">
+
+        
+                    <h5>Sample Code Explained</h5>
+                    <details>
+                        <summary>Click</summary>
+                        <br>
+                        <li>Where <b>type</b> is one of C types (such as int), and <b>variableName</b> is the name of the variable such as myName.</li> 
+                       <br>
+                    
+                        <li>The <b>equal sign</b> is used to assign a value to the variable.</li>
+                        <br>
+                    </details>
+
+                 </article>
+                 
+                  
+                
+        
+                <article>
+                    <h3><strong>FORMAT SPECIFIERS</strong></h3>
+                    <ul>
+                    <li>Format specifiers are used together with the <b>printf()</b> function to tell
+                     the compiler what type of data the variable is storing.</li> 
+                     <br>
+                     
+                     <li>A format specifier starts with a percentage sign <b>%</b>, followed by a character.</li>
+                     <br>
+                    
+                     <li>It is basically a <b>placeholder</b> for the variable value.</li>
+                     </ul>
+                     
+                     <h4>Sample Code:</h4>
+                     <img  src = "images/formatspecifier.png" alt = "input">
+                    
+                     <br>
+                     <h4>Output:</h4>
+                     <details>
+                        <summary>Click</summary>
+                        <br>
+                        <img src = "images/formatspecifier1'.png" alt = "input">
+                    </details>
+                     
+                   </article>  
+                    
+                   <article>
+                    <p>To combine both text and a variable, separate them with a <b>comma inside the printf()</b> function:</p>
+                    
+                    
+                    <h4>Sample Code:</h4>
+                    <img src = "images/formatspecifier2.png" alt = "input">
+                   
+                    <br>
+                    <h4>Output:</h4>
+                    <details>
+                        <summary>Click</summary>
+                        <br>
+                        <img  src = "images/formatspecout.png" alt = "input">
+                    </details>
+                   
+                    </article>
+                
+                    
+                    <article>
+                        <h3><strong>CHANGE VARIABLE VALUES</strong></h3>
+                        <ul>
+                        <li>If you assign a new value to an existing variable, it will overwrite the previous value:</li> 
+                         <br>
+                         
+                         <li>You can also assign the value of one variable to another:</li>
+                         
+                         </ul>
+                         
+                         <h4>Sample Code:</h4>
+                         <img  src = "images/changevalformspec.png" alt = "input">
+                        
+                         <br>
+                         <h4>Output:</h4>
+                         <details>
+                            <summary>Click</summary>
+                            <br>
+                            <img src = "images/changevaloutformspec.png" alt = "input">
+                        </details>
+                         
+                       </article>  
+
+                       <article>
+                        <h3><strong>VARIABLE NAMES:</strong></h3>
+                        <ul>
+                        <li>All C variables must be identified with unique names.</li> 
+                         <br>
+                         
+                         <li>These unique names are called <b>identifiers</b>.</li>
+                         
+                         <br>
+                         </ul>
+                         
+                         <h4>The <b>general rules</b> for naming variables are:</h4>
+                         
+                         <details>
+                            <summary>Click</summary>
+                            <ul>
+                                <li>Names can contain letters, digits and underscores</li> 
+                                <li>Names cannot contain whitespaces or special characters like !, #, %, etc.</li>
+                                 <li>Names must begin with a letter or an underscore (_)</li>
+                                 <li>Reserved words such as <b>int</b> cannot be used as names</li>
+                                 
+                             </ul>
+                            
+                        </details>
+                         
+                       </article>  
+
+                     <h1>C DATA TYPES</h1>
+                    <table class="projects-table">
+                        <thead>
+                            <tr>
+                                <th>Format Specifier</th>
+                                <th>Data Type</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="card">
+                                    
+                                    <h5>%d</h5>
+                                </td>
+                                <td>
+                                    <p>int</p>
+                                </td>
+                                <td>
+                                    <p> - Stores whole numbers, without decimals</p>
+                                    <p> - 2 or 4 bytes </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="card">
+                                    
+                                    <h5>%f</h5>
+                                </td>
+                                <td>
+                                    <p>float</p>
+                                </td>
+                                <td>
+                                    <p> - Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits</p>
+                                    <p> - 4 bytes </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="card">
+                                    
+                                    <h5>%lf</h5>
+                                </td>
+                                <td>
+                                    <p>double</p>
+                                </td>
+                                <td>
+                                    <p> - Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits</p>
+                                    <p> - 8 bytes </p>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="card">
+                                    
+                                    <h5>%c</h5>
+                                </td>
+                                <td>
+                                    <p>char</p>
+                                </td>
+                                <td>
+                                    <p> - Stores a single character/letter/number, or ASCII values</p>
+                                    <p> - 1 byte </p>
+                                </td>
+                            </tr> 
+                            <tr>
+                                <td class="card">
+                                    
+                                    <h5>%s</h5>
+                                </td>
+                                <td>
+                                    <p>Used for strings</p>
+                                </td>
+                                <td>
+                                    <p> - Can be declared as <b>char <i>variablename<i>[number of characters];</b></p>
+                                    
+                                </td>
+                            </tr> 
+                        </tbody>
+                    </table>
+               
+        </article>
+        </div>
+</body>
+</html>
