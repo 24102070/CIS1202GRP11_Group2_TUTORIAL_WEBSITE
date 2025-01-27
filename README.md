@@ -6,8 +6,7 @@
 
 - **Why PhyCics?**
    - **Step-by-step tutorials**: Easy-to-follow lessons that cover the core concepts of C programming.
-   - **Interactive exercises**: Hands-on coding practice to reinforce learning and boost your confidence.
-   - **Expert guidance**: Access to detailed explanations and tips from experienced programmers.
+   - **Guidance**: Access to detailed explanations and tips from college-level programmers.
 
 With **PhyCics**, you'll find a clear and structured path to understanding C programming and enhancing your coding skills.
 
