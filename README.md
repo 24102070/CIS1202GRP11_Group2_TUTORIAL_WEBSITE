@@ -1,4 +1,4 @@
-# CIS1202GRP11 Group 2 - PhyCics: C Programming Tutorial Website
+# CIS1202GRP11 Group 2 - PhyCics: C Programming Tutorial Website - UPDATED CSS IN INDEX.HTML
 
 ### Welcome to **PhyCics**!
 
